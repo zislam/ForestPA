@@ -26,14 +26,14 @@ Set up a project in your IDE of choice, including weka.jar and simpleCART.jar as
 
 ## Valid options are: 
 
-`-T &lt;num trees`
+`-T <num trees>`
  Number of trees requested in the forest.
  (default 10)
 
-`-M &lt;min no`
+`-M <min no>`
  The minimal number of instances at the terminal nodes of each SimpleCart.
  (default 2)
 
-`-N &lt;num folds`
+`-N <num folds>`
  The number of folds used in the minimal cost-complexity pruning for each SimpleCart.
  (default 5)
